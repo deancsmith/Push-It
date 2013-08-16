@@ -2,6 +2,7 @@
 (function(global) {
 	function PushIt(options) {
 		var self = this;
+        var somethind = 'tetst';
 		this.last_message_timestamp = 0; //get from server.
 		this.messageCallbacks = {};
 		this.agentId = this.UUID(22, 64);
